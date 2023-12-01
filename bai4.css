@@ -1,0 +1,17 @@
+#wrapper{
+    max-width: 1000px;
+    margin: auto;
+    font-size: 25px;
+}
+.image-with-text {
+display: flex;
+align-items: center;
+}
+.image-with-text img {
+margin-right: 10px;
+}
+h2{
+font-size: 40px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bolder;
+}

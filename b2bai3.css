@@ -1,0 +1,64 @@
+div.static {
+  position: static;
+  border: 3px solid black;
+  background-color: gray;
+  height: auto;
+  font-size: 30px;
+}
+p {
+  display: grid;
+  width: 70px;
+  height: 20px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+}
+ul{
+  color: blue;
+  list-style-type: square;
+
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+  }
+  th{
+    background-color: green;
+     color: white;
+    }
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #ebe9e9;
+  }
+     #wrapper{
+        max-width: 1000px;
+        margin: auto;
+    }
+    tr:hover {
+        background-color: #ddd;
+      }
+      .image-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* Sắp xếp ảnh theo 3 cột */
+        grid-gap: 10px; /* Khoảng cách giữa các ảnh */
+      }
+    
+      .image-grid img {
+        width: 100%;
+        height: 100%;
+      }
+      img{
+        opacity: 0.5;
+      }
+      img:hover {
+        opacity: 1.0;
+      }
