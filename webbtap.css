@@ -1,15 +1,18 @@
 .tieude {
     background-image: url("https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
     background-attachment: scroll;
     background-size: cover;
-    opacity: 100%;
     height: 450px;
     color: #fff;
   }
-  .h1{
-    display: inline-block;
+  h1{
+    font-size: 30px;
+  }
+  .item{
+    text-align: center;
+     font-size: 100px;
   }
   body {
     background-color: rgb(250, 225, 201);
@@ -82,5 +85,32 @@
 
   .image-grid img {
     max-width: 100%;
-    height: 500px;
+  }
+  @media(max-width:740px){
+    .tieude {
+      height: 200px;
+      background-position: center;
+    }
+    .item{
+      font-size: 30px;
+    }
+    body ,h1{
+      font-size: 15px;
+    }
+    .dropbtn{
+      padding: 6px;
+    }
+    .dropdown-content {
+      min-width: 80px;
+    }
+    .dropdown-content a {
+      padding: 6px 6px;
+    }
+    footer{
+      font-size: 15px;
+    }
+    .image-grid {
+      display: flex;
+      flex-direction: column;
+    }
   }
