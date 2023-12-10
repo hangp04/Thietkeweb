@@ -1,0 +1,36 @@
+.container{
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header{
+    background-color: aqua;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.col{
+    float: left;
+    width: 33%;
+    height: 550px;
+}
+
+.body1::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.footer{
+    background-color: aqua;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+@media (max-width:600px){
+    .col{
+        width: 100%;
+    }
+}

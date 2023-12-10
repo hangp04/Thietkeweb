@@ -1,17 +1,192 @@
-#wrapper{
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-image: url("../static/tải\ xuống.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(58, 168, 211);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 10px;
+}
+ li{
+    list-style: none;
+    margin: 0 20px;
+    display: inline-block;
+    font-size: 20px;    
+  }
+a {
+    color: rgb(255, 255, 255);
+    margin-top: 0px;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(248, 83, 83);
+  }
+h1{
+    padding-top: 300px;
+    padding-left: 30px;
+    font-size: 100px;
+    text-align: left;
+  }
+.about{
+    background-color: rgb(75, 172, 211);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.wrapper{
     max-width: 1000px;
-    margin: auto;
-    font-size: 25px;
+    margin: 0 auto;
+
 }
 .image-with-text {
-display: flex;
-align-items: center;
+    display: flex;
+    align-items: center;
 }
 .image-with-text img {
-margin-right: 10px;
+    margin-right: 10px;
 }
-h2{
-font-size: 40px;
-font-family: Arial, Helvetica, sans-serif;
-font-weight: bolder;
+.container {
+    display: flex;
+}
+.baitap{
+    background-image: url("https://images.pexels.com/photos/2088203/pexels-photo-2088203.jpeg?auto=compress&cs=tinysrgb&w=1600");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.con {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+img{
+    width: 800px;
+    height: 500px;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2,h3{
+    margin: 20px 0;
+    font-size: 50px;
+}
+p{
+    font-size: 25px;
+}
+div a{
+    color: black;
+    font-size: 25px;
+}
+.lienhe ul li{
+    margin: 0 20px;
+    display: block;
+    font-size: 25px;
+}
+.can{
+    padding: 20px;
+    font-size: 25px;
+}
+form div {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(58, 168, 211);
+    color: white;
+    width: 100%;
+}
+@media only screen and (max-width:1023px) {
+    nav{
+        padding: 0 110px;
+    }
+    header{
+        height: 400px;
+    }
+    h1{
+        font-size: 50px;
+        padding-top: 150px;
+    }
+    h2{
+        text-align: center;
+    }
+    .con img{
+        max-width: 95%;
+        height: 80%;
+    }
+    h3{
+        font-size: 35px;
+    }
+    p,form, .lienhe ul li, .lienhe a{
+        font-size: 20px;
+    }
+    footer{
+        padding-left: 10px;
+    }
+}
+@media only screen and (max-width:740px){
+    nav{
+        padding: 0;
+        font-size: 15px;
+    }
+    h1,h2,h3{
+        font-size: 25px;
+    }
+    .wrapper{
+        width:80%;
+    }
+    .image-with-text img{
+        display: none;
+    }
+    iframe{
+        width: 90%;
+        height: 200px;
+    }
+.con{
+    margin-right: 20px;
+}
+   li,p,div a,.lienhe ul li,.lienhe a,form,.can{
+        font-size: 15px;
+    }
 }
