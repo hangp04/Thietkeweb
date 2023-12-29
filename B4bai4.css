@@ -1,0 +1,247 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxyge;
+}
+.wrapper{
+    margin: 24px;
+    height: 100%;
+}
+.bgr_color{
+    background-color: #f2f2f2;
+}
+.wrap{
+    padding: auto 30px;
+    margin: auto 400px;
+}
+.nav1{
+  top: 0;
+  min-width: 970px;
+    padding: 50px 15px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 4;
+    position: fixed;
+}
+.img-nav img{
+    width: 50px;
+    height: 50px;
+ }
+.container {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 23px;
+    height: 2px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  .change {
+    cursor: pointer;
+  }
+  .change .bar1 {
+    transform: translate(0, 8px) rotate(-45deg);
+    background-color: white;
+  }
+  
+  .change .bar2 {
+    opacity: 0;
+  }
+  
+  .change .bar3 {
+    transform: translate(0, -8px) rotate(45deg);
+    background-color: white;
+  }
+  header{
+    padding: 100px 15px;
+  }
+  h1{
+    font-size: 60px;
+    font-weight: 400;    
+  }
+  li{
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+    color: #000;
+  }
+.menu ul{
+    display: flex;
+    margin-bottom: 20px;
+}
+.menu li{
+    padding: 15px;
+    margin-bottom: 10px; 
+}
+.items{
+    display: flex;
+    margin-top: 20px;
+}
+.image-children{
+    position: relative;
+    padding: 17px;
+    cursor: pointer;
+}
+.image {
+  opacity: 1;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  position: relative;
+  z-index: 2;
+}
+
+.img-hover {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.8);
+  left: 15px;
+  right: 15px;
+  top: 15px;
+  bottom: 15px;
+  width: auto;
+  height: auto;
+  padding: 40px;
+  margin: 20px;
+  z-index: 3;
+}
+.heart{
+  position: absolute;
+  left: 40px;
+  top: 40px;
+  font-size: 20px;
+}
+h2{
+  font-size: 15px;
+}
+.info{
+  bottom: 0;
+  left: 0;
+  padding: 40px;
+  position: absolute;
+}
+ .image-children:hover .img-hover{
+    opacity: 1;
+  }
+  .menu a{
+    padding: 15px;
+  }
+ .menu span, .info a {
+    position: relative;
+}
+.menu span:after, .info a::after {    
+    background: none repeat scroll 0 0 transparent;
+    content: "";
+    display: block;
+    height: 1px;
+    left:0%;
+    position: absolute;
+    background: black;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+.menu span:hover:after , .info a:hover::after{ 
+    width: 100%; 
+    left: 0; 
+  }
+  .full-screen{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 9999;    
+  }
+.full-screen.show {
+  display: block;
+}
+.full-screen .nav1{
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 25px;
+}
+.full-screen .container{
+  color: white;
+}
+.full-screen-menu{
+  position: fixed;
+    padding: 60px 500px;
+    max-height: 500px;
+    margin: 100px 0;
+  }
+  .full-screen ul, .search li{
+    text-align: center;
+    width: 600px;
+  }
+.full li{
+  font-size: 30px;
+  padding: 7px;
+}
+.full span{
+  color: white;
+}
+.full-screen span {
+  position: relative;
+}
+.full-screen span::after {    
+  background: none repeat scroll 0 0 transparent;
+  content: "";
+  display: block;
+  height: 2px;
+  left:0%;
+  position: absolute;
+  background: white;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.full-screen span:hover:after{ 
+  width: 100%; 
+  left: 0; 
+}
+.search li{
+  text-align: center;
+  font-size: 32px;
+  color: gray;
+  font-weight: 500;
+}
+.full-screen-footer{
+  width: 55%;
+  bottom: 0;
+  position: fixed;
+  left: 400px;
+}
+.footer{
+  margin-left: 40px;
+  padding: 30px 0;
+  border-top: gray 1px solid;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left, .left a{
+  color: white;
+}
+.left a:hover{
+  color: gray;
+}
+.right{
+  display: flex;
+}
+.right a{
+  height: 24px;
+  width: 24px;
+  display: inline-block;
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 5px;
+}
