@@ -1,0 +1,9 @@
+h1{
+    color: blue;
+    font-style: italic;
+    font-weight: bolder;
+}
+#wrapper{
+    max-width: 1000px;
+    margin: auto;
+}

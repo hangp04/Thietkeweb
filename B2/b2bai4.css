@@ -1,0 +1,52 @@
+
+@font-face {
+    font-family: myFirstFont;
+    src: url('../static/RobotoSlab-Regular.ttf');
+  }
+  
+body {
+    font-family: myFirstFont,serif;
+    max-width: 560px;
+    margin: auto;
+  }
+h1{
+    color: rgb(19, 151, 151);
+  }
+  #style{
+    font-weight: bolder;
+    font-style: italic;
+  }
+a{
+    text-decoration: none;
+    color: gray;
+  }
+a:hover {
+    color: rgb(228, 228, 19);
+  }
+ul{
+    color: gray;
+}
+h2{
+    background-color: rgb(66, 189, 189);
+    color: white;
+  }
+.caption{
+
+    text-align: left;
+}
+footer{
+    text-align: right;
+    font-weight: bolder;
+  }
+  div {
+    width: 560px;
+    height: fit-content;
+    text-align: center;
+    background-color: rgb(194, 186, 186);
+    color: rgb(66, 68, 189);
+    font-style: italic;
+  }
+  img{
+    width: 500px;
+    height: auto;
+  }

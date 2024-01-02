@@ -1,0 +1,116 @@
+.topnav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 0px;
+    overflow: hidden;
+    font-family:  "Source Sans Pro Topnav", sans-serif;
+    background-color: white;
+  }
+  .topnav a {
+    float: left;
+    color: black;
+    padding: 16px 16px;
+    padding-bottom: 0px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 0px;
+    text-decoration: none;
+    height: 40px;
+}
+  .topnav a:hover {
+    color: white;
+    background-color: rgb(4, 170, 109);
+  }
+  main{
+    margin-left: 300px;
+  }
+  .topnav a.active {
+    color: white;
+    background-color: black;
+  }
+  nav{
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: #282A35;
+    height: 30px;
+    top: 60px;
+  }
+  h1{
+    font-size: 42px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+  }
+  div.round {
+    border: 2px solid rgb(4, 170, 109);
+    background-color: rgb(4, 170, 109);
+    color: white;
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-weight: bolder;
+    width: 130px;
+    text-align: center;
+    display: inline-block;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+  }
+  p{
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+  }
+  h2{
+    font-size: 32px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+  }
+  h3{
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+  }
+  div.box{
+    background-color: rgb(226, 226, 226);
+    width: 1200px;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  div.example{
+    background-color: white;
+    border-left: 4px solid rgb(4, 170, 109);
+    margin-left: 30px;
+    width: 1150px;
+    font-family:'Courier New', Courier, monospace;
+  }
+  h4{
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  ul{
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+  }
+  div.p{
+    background-color: rgb(255, 255, 204);
+    width: 1200px;
+    padding: 30px;
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  .span{
+    color: rgb(220, 20, 60);
+    background-color: rgba(222, 222, 222, 0.3);
+    font-family:'Courier New', Courier, monospace;
+  }
+  div.red{
+    color: rgb(255, 0, 0);
+  }
+  div.blue{
+    color: rgb(0, 0, 205);
+  }

@@ -1,0 +1,84 @@
+.wrapper{
+    max-width: 700px;
+    margin: auto;
+}
+.nav{
+    max-width: fit-content;
+    margin: auto;
+}
+.topnav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+    font-family: arial;
+    font-weight: bold;
+  }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    padding: 14px 10px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .topnav a:hover {
+    color: rgb(237, 46, 46);
+  }
+  
+  .topnav a.active {
+    color: rgb(237, 46, 46);
+  }
+  header{
+    font-size: 12px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+main{
+    max-width: 700px;
+    margin: auto;
+    margin-right: 550px;
+
+}
+img{
+    width: 600px;
+    height: auto;
+}
+a{
+    font-size: 13px;
+    color: rgb(65, 69, 94);
+    text-decoration: none;
+}
+header,ul,h1,footer{
+    font-family: arial;
+}
+p{
+    font-family: "Times New Roman", Georgia, serif;
+    font-size: 17px;
+}
+.weight{
+    font-weight: 700;
+}
+.nghieng{
+    font-style: italic;
+}
+footer{
+    font-size: 12px;
+    background-color: #333;
+    color: white;
+}
+hr{
+    border-bottom-color: rgb(237, 46, 46);
+}
+.column {
+    color: rgb(153, 153, 153);
+    float: left;
+    width: 30%;
+    height: 250px; /* Should be removed. Only for demonstration */
+    max-width: 700px;
+    padding-left: 367px;
+    padding-top: 30px;
+
+}
