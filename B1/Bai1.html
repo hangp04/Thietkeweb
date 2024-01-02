@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 1</title>
+    <style>
+        p,li,br,dt,dd,td,th,caption{
+            font-size: 25px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 style="font-size: 70px; text-align:center;">Các thẻ trong HTML</h1>
+    <h1>Thẻ html </h1>
+            <p>Xác định một tài liệu HTML</p>
+    <h1>Thẻ body</h1>
+            <p>Xác định phần thân của tài liệu HTML
+                (chứa những phần tử sẽ được hiển thị lên màn hình trình duyệt)</p>
+    <h1>Thẻ hr</h1>
+            <p>Tạo một đường kẻ phân cách nằm ngang</p>
+        <h2>Ví dụ</h2>
+            <p>Đây là đoạn 1</p>
+            <hr>
+    <h1>Thẻ &lt;heading&gt;</h1>
+            <p>Tạo những đề mục quan trọng trong trang web, bắt đầu &lt;h&gt; và thẻ kết thúc &lt;/h&gt;</p>
+        <h2>Ví dụ</h2>
+    <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+                <h4>Heading 4</h4>
+                    <h5>Heading 5</h5>
+                        <h6>Heading 6</h6>
+    <h1>Thẻ &lt;p&gt;</h1>
+            <p>Xác định một đoạn văn bản, bắt đầu &lt;p&gt; và thẻ kết thúc &lt;/p&gt;.</p>
+        <h2>Ví dụ</h2>
+            <p>Đây là 1 đoạn văn.</p>
+    <h1>Thẻ &lt;br&gt;</h1>
+            <p>Ngắt xuống dòng mà không bắt đầu một đoạn mới.</p>
+        <h2>Ví dụ</h2>
+            <p>Đây là 1 <br>đoạn văn ngắt xuống dòng.</p>
+    <h1>Thẻ pre</h1>
+            <p>Giúp cho nội dung mà bạn muốn hiển thị lên màn hình được giữ nguyên định dạng giống như trong lúc soạn thảo</p>
+        <h2>Ví dụ</h2>
+        <pre>
+            My Bonnie lies over the ocean.
+          
+            My Bonnie lies over the sea.
+          
+            My Bonnie lies over the ocean.
+          
+            Oh, bring back my Bonnie to me.
+          </pre>
+    <h1>Định dạng văn bản</h1>
+          <p>b - Chữ in đậm</p>
+          <p>strong - Văn bản quan trọng</p>
+          <p>i - Văn bản in nghiêng</p>
+          <p>em - Đoạn văn bản được nhấn mạnh</p>
+          <p>mark - Văn bản được đánh dấu</p>
+          <p>small - văn bản nhỏ hơn</p>
+          <p>del - văn bản đã xóa</p>
+          <p>ins - đã chèn văn bản</p>
+          <p>sub - chỉ số dưới</p>
+          <p>sup - chỉ số trên</p>
+        <h2>Ví dụ</h2>
+          <p><b>Đây là đoạn in đậm</b>,<strong> đoạn quan trọng</strong>,<i> đoạn in nghiêng</i>,<em> đoạn nhấn mạnh</em>,<mark> đoạn được đánh dấu</mark>,<small> đoạn nhỏ hơn</small>,<del> đoạn đã xóa</del>,<ins> đoạn chèn thêm</ins>,<sub> chỉ số dưới</sub>,<sup> chỉ số trên</sup></p>
+    <h1>Thẻ &lt;a&gt;</h1>
+            <p>Tạo một liên kết đến một tài liệu nào đó bắt đầu &lt;a&gt; và thẻ kết thúc &lt;/a&gt;. (khi người dùng bấm vào liên kết thì sẽ được chuyển đến tài liệu đó)</p>
+            <p>Đích của liên kết được chỉ định trong thuộc tính href. Các thuộc tính được sử dụng để cung cấp thông tin bổ sung về các phần tử HTML. Thuộc tính href chỉ định URL của trang mà liên kết tới.</p>
+            <p>Thuộc tính target có thể có một trong các giá trị sau: <br>
+                _self- Mặc định. Mở tài liệu trong cùng cửa sổ/tab khi tài liệu được nhấp vào <br>
+                _blank- Mở tài liệu trong cửa sổ hoặc tab mới <br>
+                _parent- Mở tài liệu trong khung cha <br>
+                _top- Mở tài liệu ở chế độ toàn màn hình</p>
+            <p>Sử dụng mailto: bên trong thuộc tính href để tạo liên kết mở chương trình email của người dùng (để cho phép họ gửi email mới)</p>
+        <h2>Ví dụ</h2>
+            <a href="https://daotao.hnmu.edu.vn/" target="_blank">Đây là link trường</a>
+            <button onclick="document.location='https://daotao.hnmu.edu.vn/'">HNMU</button>
+            <a href="mailto: daotao@hnmu.edu.vn"> email trường</a>
+    <h1>Tạo dấu trang</h1>
+            <p>Dấu trang có thể hữu ích nếu một trang web rất dài.</p>
+
+            <p>Để tạo dấu trang - trước tiên hãy tạo dấu trang rồi thêm liên kết vào dấu trang đó.</p> 
+                
+            <p>Khi nhấp vào liên kết, trang sẽ cuộn xuống hoặc cuộn lên vị trí có dấu trang.</p> 
+            <p>Sử dụng idthuộc tính (id=" value ") để xác định dấu trang trong một trang <br>
+                Sử dụng hrefthuộc tính (href="# value ") để liên kết tới bookmark</p>
+                <p><a href="#C1">Jump to Chapter 1</a></p>
+                <p><a href="#C2">Jump to Chapter 4</a></p>
+
+                <h2 id="C1">Chapter 1</h2>
+                <p>This chapter explains ba bla bla</p>
+
+                <h2>Chapter 2</h2>
+                <p>This chapter explains ba bla bla</p>
+
+    <h1>Thẻ &lt;img&gt;</h1>
+            <p>Chèn hình ảnh vào trang web.Thuộc tính src chỉ định đường dẫn đến hình ảnh sẽ được hiển thị</p>
+            <p>Thẻ img cũng phải chứa các thuộc tính width và height xác định chiều rộng và chiều cao của hình ảnh (tính bằng pixel)</p>
+            <p>Thuộc tính bắt buộc alt cho thẻ img chỉ định văn bản thay thế cho hình ảnh nếu hình ảnh vì lý do nào đó không thể hiển thị. Điều này có thể do kết nối chậm hoặc lỗi thuộc tính src hoặc do người dùng sử dụng trình đọc màn hình.</p>
+            <p>Có thể sử dụng hình ảnh dưới dạng liên kết</p>
+            <p>Sử dụng thuộc tính CSS float để hình ảnh nổi sang trái hoặc sang phải</p>
+            <h2>Ví dụ</h2>
+            <img src="https://webcoban.vn/image/flower.gif" alt="hoa" style="float:right;width=25%;height=25%" >
+            <a href="https://moet.gov.vn/Pages/home.aspx">
+                <img src="https://hnmu.edu.vn/upload/data/adv/29-09-18/bogddt.png" alt="Mô tả ảnh">
+              </a>
+    <h1>Thuộc tính style</h1>
+            <p>Thuộc tính này style được sử dụng để thêm kiểu cho một thành phần, chẳng hạn như màu sắc, phông chữ, kích thước, v.v.</p>
+    <h1>Ví dụ</h1>
+            <p style="background-color: antiquewhite;color:chocolate;font-family: Georgia, 'Times New Roman', Times, serif;font-size: 50;text-align: center;">Câu này có màu nâu socola, có nền antiquewhite, font chữ times new roman, cỡ 50.</p>
+            <p style="border: 2px solid tomato;">Hello</p>
+    <h1>Thuộc tính lang</h1>
+            <p>Thuộc tính lang của thẻ html khai báo ngôn ngữ của trang Web</p>
+        <h2>Ví dụ</h2>
+            <p>Đây là chỉ định ngôn ngữ tiếng anh</p>
+            &lt;!DOCTYPE html&gt; <br>
+            &lt;html lang="en"&gt; <br>
+            &lt;body&gt;<br>
+            &lt;...&gt;<br>
+            &lt;/body&gt;<br>
+            &lt;/html&gt;<br>
+    <h1>Thẻ comment</h1>
+        <p>Comment HTML không được hiển thị trong trình duyệt nhưng chúng có thể giúp ghi lại mã nguồn HTML của bạn. &lt;!-- ... --&gt;</p>
+    <h1>Thẻ blockquote</h1>
+            <p> Thẻ blockquote dùng để xác định một "đoạn trích dẫn" từ một website khác.</p>
+        <h2>Ví dụ</h2>
+            <h3>Bên dưới là một trích dẫn từ trang www.worldwildlife.org</h3>
+            <blockquote cite="http://www.worldwildlife.org/about">
+        For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</blockquote>
+    <h1>Thẻ q</h1>
+            <p>Thẻ q thường được dùng để xác định một câu trích dẫn ngắn. (Phần tử q sẽ tự động tạo một cặp dấu nháy kép bao quanh câu trích dẫn)</p>
+        <h2>Ví dụ</h2>
+            <p>Khổng Tử có câu: <q>Người quân tử nghiêm khắc với mình, kẻ tiểu nhân khắt khe với người</q></p>
+    <h1>Thẻ abbr</h1>
+            <p>Thẻ abbr dùng để định nghĩa một từ viết tắt. (khi ta dí chuột vào từ viết tắt thì cụm từ định nghĩa đầy đủ sẽ được nổi lên)</p>
+        <h2>Ví dụ</h2>
+            <p>Tài liệu học <abbr title="Lập Trình Web">LTW</abbr> từ cơ bản đến nâng cao.</p>
+    <h1>Thẻ address</h1>
+            <p> Thẻ address dùng để xác định thông tin liên hệ của tác giả (hoặc chủ sở hữu) trang web. Mặc định, phần tử address sẽ có một ngắt dòng ở phía trên và một ngắt dòng ở phía dưới. Văn bản nằm bên trong phần tử address được định dạng kiểu chữ in nghiêng.</p>
+        <h2>Ví dụ</h2>
+            <address>
+                <p>Được viết bởi: Nguyễn Thành Nhân</p>
+                <p>Website: http://webcoban.vn</p>
+                <p>Địa chỉ: An Thới, Bình Thủy, Cần Thơ</p>
+            </address>
+    <h1>Thẻ cite</h1>
+            <p>Thẻ cite xác định tiêu đề của một tác phẩm sáng tạo (ví dụ: một cuốn sách, một bài thơ, một bài hát, một bộ phim, một bức tranh, một tác phẩm điêu khắc, v.v.). Lưu ý: Tên người không phải là tên tác phẩm. Văn bản trong cite phần tử thường hiển thị ở dạng in nghiêng.</p>
+        <h2>Ví dụ</h2>
+        <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+    <h1>Thẻ bdo</h1>
+            <p>- Thẻ <bdo> dùng để điều hướng một đoạn văn bản được chỉ định.</p>
+                - Cú phá: <br>
+                &lt;bdo dir="ltr|rtl"&gt;đoạn văn bản mà bạn muốn điều hướng&lt;bdo&gt; <br>
+                - Trong đó: <br>
+                <ul>
+                <li>ltr (là giá trị mặc định): văn bản sẽ được giữ nguyên theo chiều ban đầu của nó.</li>
+                <li>rtl: văn bản sẽ được đảo theo chiều ngược lại.</li></ul>
+        <h2>Ví dụ</h2>
+            <p>- Tài liệu học <bdo>Lập Trình Web</bdo> cơ bản.</p>
+            <p>- Tài liệu học <bdo dir="ltr">Lập Trình Web</bdo> cơ bản.</p>
+            <p>- Tài liệu học <bdo dir="rtl">Lập Trình Web</bdo> cơ bản.</p>
+    <h1>Thẻ &lt;!-- --&gt;</h1>
+            <p>Dùng để xác định một đoạn chú thích trong trang web. (Khi trình duyệt thực thi mà gặp phải những đoạn chú thích thì nó sẽ bỏ qua những đoạn chú thích đó)</p>
+        <h2>Ví dụ</h2>
+            <!-- Đây là chú thích, nó sẽ không được hiển thị lên màn hình -->
+            <p>LẬP TRÌNH WEB</p>
+    <h1>CSS HTML</h1>
+            <p>Cascading Style Sheets (CSS) được sử dụng để định dạng bố cục của trang web.</p>
+            <p>Với CSS, bạn có thể kiểm soát màu sắc, phông chữ, kích thước văn bản, khoảng cách giữa các thành phần, cách các thành phần được định vị và bố trí, hình nền hoặc màu nền nào sẽ được sử dụng, các hiển thị khác nhau cho các thiết bị và kích thước màn hình khác nhau, và nhiều hơn nữa!</p>
+            <p>Mẹo: Từ xếp tầng có nghĩa là kiểu được áp dụng cho phần tử cha cũng sẽ áp dụng cho tất cả các phần tử con trong phần tử cha. Vì vậy, nếu bạn đặt màu của nội dung văn bản thành "xanh lam", tất cả các tiêu đề, đoạn văn và các thành phần văn bản khác trong nội dung cũng sẽ có cùng màu (trừ khi bạn chỉ định nội dung nào khác)!</p>
+            <p>CSS có thể được thêm vào tài liệu HTML theo 3 cách:</p>
+            <ul>
+                <li>Inline (Nội tuyến) - bằng cách sử dụng thuộc tính style bên trong các phần tử HTML</li>
+                <li>Internal (Nội bộ) - bằng cách sử dụng một phần tử style trong  head phần</li>
+                <li>External (Bên ngoài) - bằng cách sử dụng một phần tử link để liên kết đến tệp CSS bên ngoài</li>
+            </ul>
+            <p>Cách phổ biến nhất để thêm CSS là giữ kiểu trong các tệp CSS bên ngoài. Tuy nhiên, trong hướng dẫn này, chúng tôi sẽ sử dụng các kiểu nội tuyến và nội bộ vì cách này dễ minh họa hơn và bạn cũng dễ dàng tự mình thử hơn.</p>
+    <h1>CSS inline</h1>
+            <p>CSS nội tuyến được sử dụng để áp dụng một kiểu duy nhất cho một thành phần HTML. <br>
+                CSS nội tuyến sử dụng thuộc tính style của phần tử HTML. <br>
+                Ví dụ sau đặt màu văn bản của phần tử h1 thành màu xanh lam và màu văn bản của phần tử p thành màu đỏ: <br></p>
+                <h1 style="color:blue;">A Blue Heading</h1>
+                    <p style="color:red;">A red paragraph.</p>
+    <h1>CSS internal</h1>
+            <p>CSS nội bộ được sử dụng để xác định kiểu cho một trang HTML. <br>
+                CSS nội bộ được xác định trong phần head của trang HTML, bên trong một phần tử style. <br>
+                Ví dụ sau đặt màu văn bản của TẤT CẢ các thành phần h1 (trên trang đó) thành màu xanh lam và màu văn bản của TẤT CẢ các thành phần p thành màu đỏ. Ngoài ra, trang sẽ được hiển thị với màu nền "xanh bột": <br></p>
+                <!DOCTYPE html>
+                <html>
+                <head>
+                <style>
+                body {background-color: powderblue;}
+                h1   {color: blue;}
+                p,br   {color: red;}
+                </style>
+                </head>
+                <body>
+
+                <h1>This is a heading</h1>
+                <p>This is a paragraph.</p>
+
+                </body>
+                </html>
+    <h1>CSS external</h1>
+            <p>Một biểu định kiểu bên ngoài được sử dụng để xác định kiểu cho nhiều trang HTML. <br>
+                Để sử dụng biểu định kiểu bên ngoài, hãy thêm liên kết đến biểu định kiểu đó trong phần head của mỗi trang HTML: <br></p>
+                <!DOCTYPE html>
+                <html>
+                <head>
+                <link rel="stylesheet" href="styles.css">
+                </head>
+                <body>
+
+                <h1>This is a heading</h1>
+                <p>This is a paragraph.</p>
+
+                </body>
+                </html>
+    <h1>CSS border</h1>
+            <p>Sử dụng thuộc tính CSS border cho đường viền</p> 
+    <h1>CSS padding</h1>
+            <p>Thuộc tính CSS padding xác định khoảng đệm (khoảng trắng) giữa văn bản và đường viền.</p>
+    <h1>CSS margin</h1>
+            <p>Thuộc tính CSS margin xác định lề (khoảng trắng) bên ngoài đường viền.</p>
+            <p>&lt;style> <br>
+            p { <br>
+            border: 2px solid rgb(230, 191, 176); <br>
+            padding: 30px; <br>
+            margin: 20px; <br>
+            } <br>
+            &lt;/style> <br></p> 
+    <h1>Link to external CSS</h1>
+            <p>Các biểu định kiểu bên ngoài có thể được tham chiếu bằng một URL đầy đủ hoặc bằng một đường dẫn liên quan đến trang web hiện tại.</p>
+            <P>&lt;!DOCTYPE html> <br>
+            &lt;html> <br>
+            &lt;head> <br>
+            &lt;title>Trang web của tôi&lt;/title> <br>
+            &lt;link rel="stylesheet" href="styles.css"> <br>
+            &lt;/head> <br>
+            &lt;body> <br>
+                &lt;p>Đây là đoạn văn.&lt;/p> <br>
+            &lt;/body> <br>
+            &lt;/html></p>
+    <h1>Thẻ ul</h1>
+            <p>Danh sách không có thứ tự bắt đầu bằng thẻ ul. Mỗi mục danh sách bắt đầu bằng thẻ li.<br>
+                Các mục trong danh sách sẽ được đánh dấu bằng dấu đầu dòng (vòng tròn nhỏ màu đen) theo mặc định:</p>
+        <h2>Ví dụ</h2>
+        <ul>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ul>
+    <h1>Thẻ ol</h1>
+            <p>Một danh sách có thứ tự bắt đầu bằng thẻ ol. Mỗi mục danh sách bắt đầu bằng thẻ li.
+                Các mục trong danh sách sẽ được đánh dấu bằng số theo mặc định:</p>
+        <h2>Ví dụ</h2>
+        <ol>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ol>
+    <h1>Thẻ HTML description list</h1>
+            <p>HTML cũng hỗ trợ danh sách mô tả.
+                Danh sách mô tả là danh sách các thuật ngữ, kèm theo mô tả cho từng thuật ngữ.
+                Thẻ dl xác định danh sách mô tả,thẻ dt xác định thuật ngữ (tên) và thẻ dd mô tả từng thuật ngữ</p>
+        <h2>Ví dụ</h2>
+        <dl>
+            <dt>Coffee</dt>
+            <dd>- black hot drink</dd>
+            <dt>Milk</dt>
+            <dd>- white cold drink</dd>
+          </dl>
+    <h1>Thẻ table</h1>
+            <p>Mỗi ô của bảng được xác định bởi 1 &lt;td> và một thẻ &lt;/td>.</p>
+            <p>Mỗi hàng của bảng bắt đầu bằng 1 &lt;tr> và kết thúc bằng một thẻ &lt;/tr>.</p>
+            <p>Đôi khi bạn muốn các ô của mình là ô tiêu đề bảng. Trong những trường hợp đó, hãy sử dụng thẻ &lt;th> thay vì thẻ &lt;td>:</p>
+        <h2>Ví dụ</h2>
+        <style>
+            table {width: 100%;}
+            table,th,td{ 
+                border: 2px solid black;
+                border-collapse: collapse;
+                background-color: aliceblue;
+                border-color: brown;
+                }
+            </style>
+        <table>
+            <caption>Caption</caption>
+            <tr>
+              <th style="width:50%";>Person 1</th>
+              <th>Person 2</th>
+              <th>Person 3</th>
+            </tr>
+            <tr style="height: 100px;">
+              <td>Emil</td>
+              <td>Tobias</td>
+              <td>Linus</td>
+            </tr>
+            <tr>
+              <td>16</td>
+              <td>14</td>
+              <td>10</td>
+            </tr>
+          </table>
+    <h1>Phần tử div</h1>
+            <p>Phần tử div thường được sử dụng làm vùng chứa cho các phần tử HTML khác. <br>
+                Phần tử div không có thuộc tính bắt buộc nhưng style, class và id là phổ biến. <br>
+                Khi được sử dụng cùng với CSS, phần tử div có thể được sử dụng để tạo kiểu cho các khối nội dung:</p>
+        <h2>Ví dụ</h2>
+        <div style="background-color:black;color:white;padding:20px;">
+            <h2>London</h2>
+            <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+          </div>
+    <h1>Phần tử span</h1>
+            <p>Phần tử này span là một vùng chứa nội tuyến được sử dụng để đánh dấu một phần của văn bản hoặc một phần của tài liệu. <br>
+
+                Phần tử span không có thuộc tính bắt buộc nhưng style, class và id là phổ biến. <br>
+                
+                Khi được sử dụng cùng với CSS, phần tử span có thể được sử dụng để tạo kiểu cho các phần của văn bản:</p>
+        <h2>Ví dụ</h2>
+        <p>My mother has <span style="color:blue;font-weight:bold;">blue</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold;">dark green</span> eyes.</p>
+</body>
+</html>
