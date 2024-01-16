@@ -1,0 +1,16 @@
+.chua{
+    margin: 5em;
+}
+.chua img{
+    width: 30%;
+}
+#next,#back{
+    position: fixed;
+    bottom: 70%;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+.chua #next{
+    left: 31%;
+}

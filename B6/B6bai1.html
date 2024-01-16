@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../B6/B6bai1.js"></script>
+    <link rel="stylesheet" href="../B6/B6bai1.css">
+</head>
+<body>
+    <h1>FORM ĐĂNG KÍ</h1>
+    <form name="form" action="" onsubmit="return validateform()">
+        <label for="ho">Họ</label>
+        <input type="text" name="ho" id="ho"> <br>
+        <label for="ten">Tên</label>
+        <input type="text" name="ten" id="ten"> <br>
+        <label>Ngày sinh:</label>
+        <label for="ngay">Ngày</label>
+        <select name="ngay" id="ngay">
+            <option value="1">1</option>
+        </select>
+        <label for="thang">Tháng</label>
+        <select name="thang" id="thang">
+            <option value="1">1</option>
+        </select>
+        <label for="nam">Năm</label>
+        <select name="nam" id="nam">
+            <option value="1980">1980</option>
+        </select> <br>
+        <label for="gioitinh">Giới tính</label>
+        <input type="radio" name="gioitinh" value="Nam" checked=checked/>Nam
+        <input type="radio" name="gioitinh" value="Nữ">Nữ <br>
+        <label>Số điện thoại</label>
+        <input type="text" name="sdt"> <br>
+        <label for="sothich">Sở thích</label>
+        <input type="checkbox" value="Đọc sách" name="sothich" checked=checked/>Đọc sách
+        <input type="checkbox" value="Xem phim" name="sothich"/>Xem phim
+        <input type="checkbox" value="Nghe nhạc" name="sothich"/>Nghe nhạc
+        <input type="checkbox" value="Đá bóng" name="sothich"/>Đá bóng <br>
+        <label for="khac">Khác</label>
+        <input type="text" name="khac" id="khac"><br>
+        <button>Submit</button>
+        <button>Reset</button>
+    </form>
+</body>
+</html>

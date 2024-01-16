@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../B6/B6bai3b.css">
+</head>
+<body>
+    <h2>Các phép toán</h2>
+    <div id="calculator">
+        <p>Phép cộng <input type="text" name="so1" id="so1">+<input type="text" name="so2" id="so2"><button onclick="cong()">=</button><input type="text" name="result1" id="result1"></p>
+        <p>Phép trừ <input type="text" name="so3" id="so3">-<input type="text" name="so4" id="so4"><button onclick="tru()">=</button><input type="text" name="result2" id="result2"></p>
+        <p>Phép nhân <input type="text" name="so5" id="so5">*<input type="text" name="so6" id="so6"><button onclick="nhan()">=</button><input type="text" name="result3" id="result3"></p>
+        <p>Phép chia <input type="text" name="so7" id="so7">/<input type="text" name="so8" id="so8"><button onclick="chia()">=</button><input type="text" name="result4" id="result4"></p>
+    </div>
+    <h2>Các phép toán vừa thực hiện</h2>
+    <table style="width: 70%;">
+        <tr>
+            <td id="text1">PHÉP CỘNG</td>
+            <td id="text2">PHÉP TRỪ</td>
+            <td id="text3">PHÉP NHÂN</td>
+            <td id="text4">PHÉP CHIA</td>
+        </tr>
+        <tr>
+            <td id="history1"></td>
+            <td id="history2"></td>
+            <td id="history3"></td>
+            <td id="history4"></td>
+        </tr>
+    </table>
+    <script src="../B6/B6bai3b.js"></script>
+</body>
+</html>
