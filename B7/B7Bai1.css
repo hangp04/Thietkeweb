@@ -1,0 +1,42 @@
+.navbar {
+    background-color: #f1f1f1;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar .dropdown {
+    display: block;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.navbar .dropdown a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+ .navbar:hover .nav{
+    background-color: rgb(0, 94, 255);
+    color: #f1f1f1;
+}
+ #myDropdown a:hover {
+    background-color: #ddd;
+}
+
+.no-show {
+    display: none;
+}

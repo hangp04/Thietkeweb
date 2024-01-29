@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web bán cà phê</title>
+    <link rel="stylesheet" href="../B7/B7bai2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <a href="" id="logo">LOGO</a>
+            <div id="menu">
+                <div class="item">
+                    <a href="#banner">Trang chủ</a>
+                </div>
+                <div class="item">
+                    <div class="dropdown">
+                        <p onclick="click_products(event)">Sản phẩm <i class="fa fa-caret-down" aria-hidden="true"></i></p>
+                        <div id="myDropdown" class="no-show" >
+                            <a href="">Cà phê truyền thống</a> <br>
+                            <a href="">Cà phê Americano</a> <br>
+                            <a href="">Cà phê Latte</a> <br>
+                            <a href="">Cà phê Espresso</a> <br>
+                            <a href="">Cà phê Cappuccino</a> <br>
+                            <a href="">Cà phê Mocha</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <a href="">Blog</a>
+                </div>
+                <div class="item">
+                    <a href="">Liên hệ</a>
+                </div>
+            </div>
+            <div id="actions">
+                <div class="item">
+                    <div class="bar-menu">
+                        <p onclick="openNav()"><i class="fa fa-bars" aria-hidden="true" id="bar"></i></p>
+                        <div id="mySidebar" class="sidebar">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                            <a href="#">Trang chủ</a>
+                            <a href="#">Sản phẩm</a>
+                            <a href="#">Blog</a>
+                            <a href="#">Liên hệ</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <a href="javascript:void(0)" onclick="toggleDropdown(event)"><i class="fa fa-search" aria-hidden="true" id="search" ></i></a>
+                    <div id="search-form" class="search-form">
+                        <input type="search" id="search-box" placeholder="search here...">
+                        <label for="search-box" class="fa fa-search"></label>
+                    </div>
+                </div>
+                <div class="item">
+                    <a href=""><i class="fa fa-shopping-cart" aria-hidden="true" id="cart"></i></a>
+                </div>
+            </div>
+        </div>
+        <div id="banner">
+            <div class="box">
+                <h2>
+                    <span>CÀ PHÊ</span>
+                    <br>
+                    <span>THƯỢNG HẠNG</span>
+                </h2>
+                <br>
+                <p>Lorem ipsum, dolor sit amet <br> consectetur adipisicing elit. <br> Dolorum fuga, sapiente odio <br> reprehenderit nemo nam? </p>
+                <button>Mua ngay</button>
+            </div>
+        </div>
+        <div id="wp-products">
+            <h2>SẢN PHẨM CỦA CHÚNG TÔI</h2>
+            <ul id="list-products">
+                    <div class="item">
+                        <img src="https://images.pexels.com/photos/1727123/pexels-photo-1727123.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+                        <div class="hov">
+                            <div class="stars">
+                                <span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </span>
+                                <span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </span>
+                                <span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </span>
+                                <span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </span>
+                                <span>
+                                    <i class="fa fa-star-half" aria-hidden="true"></i>
+                                </span>
+                            </div>
+        
+                            <div class="name">Cà phê 1</div>
+                            <div class="desc">Mô Tả Ngắn Cho Sản Phẩm</div>
+                            <div class="price">50.000 VNĐ</div>
+                            <button>Mua ngay</button>
+                        </div>
+                    </div>
+    
+    
+                    <div class="item">
+                        <img src="https://images.pexels.com/photos/133222/pexels-photo-133222.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+                        <div class="hov">
+                            <div class="stars">
+                                <span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </span>
+                                <span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </span>
+                                <span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </span>
+                                <span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </span>
+                                <span>
+                                    <i class="fa fa-star-half" aria-hidden="true"></i>
+                                </span>
+                            </div>
+        
+                            <div class="name">Cà phê 1</div>
+                            <div class="desc">Mô Tả Ngắn Cho Sản Phẩm</div>
+                            <div class="price">50.000 VNĐ</div>
+                            <button>Mua ngay</button>
+                        </div>
+                    </div>
+    
+    
+                    <div class="item">
+                        <img src="https://images.pexels.com/photos/2351275/pexels-photo-2351275.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+                        <div class="hov">
+                            <div class="stars">
+                                <span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </span>
+                                <span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </span>
+                                <span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </span>
+                                <span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </span>
+                                <span>
+                                    <i class="fa fa-star-half" aria-hidden="true"></i>
+                                </span>
+                            </div>
+        
+                            <div class="name">Cà phê 1</div>
+                            <div class="desc">Mô Tả Ngắn Cho Sản Phẩm</div>
+                            <div class="price">50.000 VNĐ</div>
+                            <button>Mua ngay</button>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="https://images.pexels.com/photos/685527/pexels-photo-685527.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+                        <div class="hov">
+                            <div class="stars">
+                                <span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </span>
+                                <span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </span>
+                                <span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </span>
+                                <span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </span>
+                                <span>
+                                    <i class="fa fa-star-half" aria-hidden="true"></i>
+                                </span>
+                            </div>
+        
+                            <div class="name">Cà phê 1</div>
+                            <div class="desc">Mô Tả Ngắn Cho Sản Phẩm</div>
+                            <div class="price">50.000 VNĐ</div>
+                            <button>Mua ngay</button>
+                        </div>
+                    </div>
+    
+                    <div class="item">
+                        <img src="https://images.pexels.com/photos/2351275/pexels-photo-2351275.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+                        <div class="hov">
+                            <div class="stars">
+                                <span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </span>
+                                <span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </span>
+                                <span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </span>
+                                <span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </span>
+                                <span>
+                                    <i class="fa fa-star-half" aria-hidden="true"></i>
+                                </span>
+                            </div>
+        
+                            <div class="name">Cà phê 1</div>
+                            <div class="desc">Mô Tả Ngắn Cho Sản Phẩm</div>
+                            <div class="price">50.000 VNĐ</div>
+                            <button>Mua ngay</button>
+                        </div>
+                    </div>
+    
+                    <div class="item">
+                        <img src="https://images.pexels.com/photos/2267869/pexels-photo-2267869.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+                        <div class="hov">
+                            <div class="stars">
+                                <span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </span>
+                                <span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </span>
+                                <span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </span>
+                                <span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </span>
+                                <span>
+                                    <i class="fa fa-star-half" aria-hidden="true"></i>
+                                </span>
+                            </div>
+                            <div class="name">Cà phê 1</div>
+                            <div class="desc">Mô Tả Ngắn Cho Sản Phẩm</div>
+                            <div class="price">50.000 VNĐ</div>
+                            <button>Mua ngay</button>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="https://images.pexels.com/photos/162947/coffee-glass-beverage-coffee-mug-162947.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+                        <div class="hov">
+                            <div class="stars">
+                                <span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </span>
+                                <span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </span>
+                                <span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </span>
+                                <span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </span>
+                                <span>
+                                    <i class="fa fa-star-half" aria-hidden="true"></i>
+                                </span>
+                            </div>
+                            <div class="name">Cà phê 1</div>
+                            <div class="desc">Mô Tả Ngắn Cho Sản Phẩm</div>
+                            <div class="price">50.000 VNĐ</div>
+                            <button>Mua ngay</button>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="https://images.pexels.com/photos/302887/pexels-photo-302887.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+                        <div class="hov">
+                            <div class="stars">
+                                <span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </span>
+                                <span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </span>
+                                <span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </span>
+                                <span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </span>
+                                <span>
+                                    <i class="fa fa-star-half" aria-hidden="true"></i>
+                                </span>
+                            </div>
+                            <div class="name">Cà phê 1</div>
+                            <div class="desc">Mô Tả Ngắn Cho Sản Phẩm</div>
+                            <div class="price">50.000 VNĐ</div>
+                            <button>Mua ngay</button>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="https://images.pexels.com/photos/236818/pexels-photo-236818.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+                        <div class="hov">
+                            <div class="stars">
+                                <span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </span>
+                                <span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </span>
+                                <span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </span>
+                                <span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </span>
+                                <span>
+                                    <i class="fa fa-star-half" aria-hidden="true"></i>
+                                </span>
+                            </div>
+                            <div class="name">Cà phê 1</div>
+                            <div class="desc">Mô Tả Ngắn Cho Sản Phẩm</div>
+                            <div class="price">50.000 VNĐ</div>
+                            <button>Mua ngay</button>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="https://images.pexels.com/photos/2910874/pexels-photo-2910874.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+                        <div class="hov">
+                            <div class="stars">
+                                <span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </span>
+                                <span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </span>
+                                <span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </span>
+                                <span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </span>
+                                <span>
+                                    <i class="fa fa-star-half" aria-hidden="true"></i>
+                                </span>
+                            </div>
+                            <div class="name">Cà phê 1</div>
+                            <div class="desc">Mô Tả Ngắn Cho Sản Phẩm</div>
+                            <div class="price">50.000 VNĐ</div>
+                            <button>Mua ngay</button>
+                        </div>
+                    </div>
+
+                    
+            </ul>
+        </div>
+    </div>
+    <script src="../B7/B7bai2.js"></script>
+</body>
+
+</html>
