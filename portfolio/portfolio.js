@@ -167,28 +167,21 @@ function validateform() {
 }
 
 function showError(errorMessage) {
-  var errorElement = document.getElementById("error-message");
+  var errorElement = document.getElementById("error-container");
+  var successElement = document.getElementById("success-message");
+
   errorElement.textContent = errorMessage;
+  successElement.textContent = "";
 }
 
 function showSuccess(successMessage) {
   var successElement = document.getElementById("success-message");
+  var errorElement = document.getElementById("error-container");
+
   successElement.textContent = successMessage;
+  errorElement.textContent = "";
 
   document.getElementById("hovaten").value = "";
   document.getElementById("email").value = "";
   document.getElementById("message").value = "";
 }
-
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach((entry) => {
-    console.log(entry)
-    if (entry.isIntersecting) {
-      entry.target.classList.add('show');
-    } else {
-      entry.target.classList.remove('show');
-    }
-  });
-});
-const hiddenElements = document.querySelectorAll('.hidden');
-hiddenElements.forEach((el) => observer.observe(el));
