@@ -17,7 +17,7 @@ window.addEventListener(
     'scroll',
     function () {
         sections.forEach((section) => {
-            const top = section.offsetTop - 50;
+            const top = section.offsetTop - 150;
             const html = document.documentElement;
             const height = section.offsetHeight;
 
@@ -185,3 +185,16 @@ function showSuccess(successMessage) {
   document.getElementById("email").value = "";
   document.getElementById("message").value = "";
 }
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    console.log(entry)
+    if (entry.isIntersecting) {
+      entry.target.classList.add('show');
+    } else {
+      entry.target.classList.remove('show');
+    }
+  });
+});
+const hiddenElements = document.querySelectorAll('.hidden');
+hiddenElements.forEach((el) => observer.observe(el));

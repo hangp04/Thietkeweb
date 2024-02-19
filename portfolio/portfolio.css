@@ -1,9 +1,3 @@
-  @font-face {
-    font-family: 'Rockville Solid Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Rockville Solid Regular'), url('../static/Rockville\ Solid.woff') format('woff');
-    }
 * {
     padding: 0;
     margin: 0;
@@ -133,12 +127,9 @@ li{
   }
 
   .title h1{
-    font-size: 6rem;
-	font-family: "Rockville Solid Regular";
+    font-size: 4rem;
 	width: 100%;
-    line-height: 6rem;
     font-weight: bolder;
-    margin: 5rem 0;
     align-items: center;
     color: #745d4d;
   }
@@ -787,7 +778,7 @@ button:hover{
         font-size:1.5rem;
     }
     h2, .title h2{
-        font-size:1.5rem;
+        font-size:1.3rem;
         padding: 2.5rem 0;
       }
       .title{
@@ -795,7 +786,6 @@ button:hover{
     }
     .title h1{
         font-size: 4rem;
-        line-height: 6rem;
         margin: 1.2rem;
         text-align: center;
     }
@@ -844,15 +834,14 @@ button:hover{
         display: none;
     }
     h2{
-        font-size:1.5rem;
+        font-size:1.3rem;
         padding: 2rem 0;
       }
       .title{
         max-width: 576px;
     }
     .title h1{
-        font-size: 4rem;
-        line-height: 6rem;
+        font-size: 2rem;
         margin: 1.2rem;
         text-align: center;
     }
